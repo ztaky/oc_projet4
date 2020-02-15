@@ -1047,6 +1047,13 @@ h4 {
     }
 
 
+.adresse {
+    font-size: 1em;
+    text-align: center;
+    margin-left: 50px;
+}
+
+
 .social {
     display: flex;
     margin-left: 33%;
@@ -1058,12 +1065,7 @@ h4 {
     width: 70%;
     height: 70%;
 }
-
-.perso1 {
-    display:none;
-
 }
-
 
 .icon-lg{
     color: #F3976C!important;
@@ -1079,8 +1081,6 @@ h4 {
     text-decoration: none;
 }
 
-.adresse {
-    font-size: 1em;
-    text-align: center;
-    margin-left: 50px;
+.blocperso{
+    width: 100%!important;
 }
