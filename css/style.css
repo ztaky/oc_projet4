@@ -326,6 +326,8 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    font-weight: bold;
+    color: #F3976C;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -361,6 +363,8 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -753,7 +757,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(237, 120, 18, 0.5);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,7 +779,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine {
@@ -805,24 +809,24 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
+    color: #!important;
     border-color: #364577!important;
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("../img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("../img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("../img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.png");
+    background-image: url("../img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
@@ -1033,10 +1037,51 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+
+.adresse {
+    font-size: 1em;
+    text-align: center;
+    margin-left: 50px;
 }
+
+.perso1{
+    display:flex;
+    justify-content: space-around!important;
+}
+
+.social {
+    display: flex;
+    margin-left: 33%;
+    padding-right: 20px;
+    justify-content: space-around;       
+}
+
+.imgsmall{
+    width: 70%;
+    height: 70%;
+}
+}
+
+.icon-lg{
+    color: #F3976C!important;
+}
+
+.perso{
+    font-weight: bold;
+    color: #F3976C!important; 
+}
+
+.email{
+    color: #F3976C;
+    text-decoration: none;
+}
+
