@@ -1045,8 +1045,9 @@ h4 {
 .social {
     display: flex;
     margin-left: 33%;
+    margin-right: 33%
     padding-right: 20px;
-    justify-content: space-around;       
+    justify-content: space-around;      
 }
 
 .imgsmall{
@@ -1056,6 +1057,16 @@ h4 {
 
 .perso1{
     display: none;
+}
+
+.ca-texte5{
+    font-size: 0.8em;
+}
+
+.title, .citation{
+    font-size: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 }
 
