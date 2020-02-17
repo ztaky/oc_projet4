@@ -1044,15 +1044,18 @@ h4 {
 
 .social {
     display: flex;
-    margin-left: 33%;
-    margin-right: 33%
-    padding-right: 20px;
-    justify-content: space-around;      
+    margin-left: 33%!important;
+    margin-right: 33%!important;
+    justify-content: space-around!important; 
+    padding-right: 10px;
+    padding-left: 10px;     
 }
 
 .imgsmall{
     width: 70%;
     height: 70%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .perso1{
@@ -1060,14 +1063,41 @@ h4 {
 }
 
 .ca-texte5{
-    font-size: 0.8em;
+    font-size: 1em;
+    display: block;
 }
 
-.title, .citation{
-    font-size: 1em;
-    padding-left: 10px;
-    padding-right: 10px;
+.title1{
+    font-size: 0.7em;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
 }
+
+.title2{
+    font-size: 0.8em;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: center;
+}
+
+.citation{
+    font-size: 0.7em;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.img-responsive{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.contact{
+    text-align: center;
+}
+
 }
 
 .icon-lg{
@@ -1083,6 +1113,7 @@ h4 {
     
     text-decoration: none;
     font-weight: bold;
+    text-align: center!important;
 }
 
 .blocperso{
@@ -1136,7 +1167,7 @@ h4 {
     font-style: normal;
 }
 
-.title{
+.title1, .title2{
     font-size: 1.5em;
     font-weight: bold;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
